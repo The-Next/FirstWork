@@ -4,6 +4,7 @@
 email文件里是贝叶斯分类的第一次作业和使用逻辑回归对邮件分类
 
 Logistic文件里是第二次的作业，ch01(1).py是作业，hourse.py是自己实现的
+Logistic文件里horseColicTraining是病马分析
 
 第二个作业输出是
 
