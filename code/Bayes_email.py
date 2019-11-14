@@ -97,10 +97,10 @@ def filter(ham_word_pro, spam_word_pro, test_file):
             numerator *= v#P1P2P3......
             denominator_h *= (1-v)#(1-p1)(1-p2)(1-p3)......
         email_spam_prob = round(numerator/(numerator+denominator_h), 4)#概率计算
-        if numerator > denominator_h:
-            print(file_name,'spam')
-        else:
-            print(file_name,'ham')
+        # if numerator > denominator_h:
+        #     print(file_name,'spam')
+        # else:
+        #     print(file_name,'ham')
         # if email_spam_prob > 0.5:
         #     print(file_name, 'spam', email_spam_prob)
         # else:
